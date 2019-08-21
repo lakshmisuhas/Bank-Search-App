@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
+  <a class="navbar-brand" routerLink = "/">Bank-Search-App</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item pl-1">
+        <a class="nav-link" routerLink = "search-banks">Search</a>
+      </li>
+      <li class="nav-item pl-1">
+        <a class="nav-link" routerLink = "/favourites">Favourites</a>
+      </li>
+      <li class="nav-item pl-1">
+          <a class="nav-link" routerLink = "/api">API(Backend-Task)</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>

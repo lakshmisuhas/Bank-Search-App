@@ -1,0 +1,22 @@
+<div class="container mt-5 pt-5">
+  <h2 class="pb-3">Your Favourites</h2>
+  <table class="table table-bordered table-hover">
+      <thead class="thead-dark">
+        <tr>
+          <th *ngFor="let head of headElements" scope="col">{{head}} </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr mdbTableCol *ngFor="let detail of favBanks">
+          <th scope="row">{{detail.bank_id}}</th>
+          <td>{{detail.bank_name}}</td>
+          <td>{{detail.state}}</td>
+          <td>{{detail.district}}</td>
+          <td>{{detail.city}}</td>
+          <td><p>{{detail.address}}</p></td>
+          <td>{{detail.branch}}</td>
+          <td>{{detail.ifsc}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

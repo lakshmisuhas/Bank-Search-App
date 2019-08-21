@@ -1,0 +1,7 @@
+table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+.fa-external-link-square-alt{
+    cursor: pointer;
+}
